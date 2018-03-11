@@ -8,7 +8,7 @@ function cesarCrypt(text, key){
         rc += String.fromCharCode(ind);
     }
     return rc;
-}
+} 
 
 console.log(cesarCrypt('abcdefgh', 1));
 console.log('***************');
